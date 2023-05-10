@@ -317,7 +317,7 @@ body {
 }
 
 .header {
-  border-bottom: 1px solid #ececec;
+  margin-bottom: 80px;
 }
 
 .header__container {
@@ -465,4 +465,20 @@ body {
   left: -40px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.about {
+  margin-bottom: 80px;
+}
+
+.feature {
+  margin-bottom: 80px;
+}
+
+.team {
+  margin-bottom: 80px;
+}
+
+.reviews {
+  margin-bottom: 80px;
 }/*# sourceMappingURL=main.css.map */
