@@ -1,3 +1,48 @@
 .team{
     margin-bottom: 80px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -30px;
+    padding-left: 100px;
+}
+
+.team-list__item {
+    width: calc(50% - 30px);
+    margin: 0 0 60px;
+}
+
+.team-list__item .team-photo {
+    display: block;
+    margin: 12px 0 12px 12px;
+    float: left;
+}
+
+.team-box {
+    overflow: hidden;
+    margin-left: 12px;
+}
+
+.team__name {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.team__position {
+    margin-left: 20px;
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
 }
