@@ -292,8 +292,8 @@ Add the correct display in Chrome and Safari.
 */
 .container {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -307,7 +307,7 @@ Add the correct display in Chrome and Safari.
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1340px;
   }
 }
 
@@ -336,7 +336,7 @@ body {
 .site-nav__list {
   display: flex;
   justify-content: baseline;
-  margin-left: 520px;
+  margin-left: 490px;
 }
 
 .site-nav__list li {
@@ -376,6 +376,7 @@ body {
   color: #FFFFFF;
   cursor: pointer;
   left: -40px;
+  margin-left: 60px;
 }
 
 .logo::before {
@@ -506,7 +507,7 @@ body {
 
 .about-image {
   position: absolute;
-  margin-left: 1013px;
+  margin-left: 940px;
   top: 977px;
   width: 324px;
   height: 252px;
@@ -515,7 +516,7 @@ body {
 
 .about-image__after {
   position: absolute;
-  margin-left: 1013px;
+  margin-left: 940px;
   top: 945px;
   width: 377px;
   height: 290px;
@@ -523,7 +524,64 @@ body {
 }
 
 .feature {
-  margin-bottom: 80px;
+  margin-bottom: 310px;
+  position: relative;
+}
+
+.feature-image {
+  position: absolute;
+  margin-left: 500px;
+  top: 90px;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Adamina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  margin-left: 300px;
+  gap: 140px;
+}
+
+.feature-list .feature-item {
+  list-style: url(/images/feature-eclipse.jpg);
+  width: 40%;
+}
+
+.feature-text {
+  font-family: "Adamina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  position: absolute;
+  z-index: 4;
+  left: 1320px;
+}
+
+.ellipse-big {
+  position: absolute;
+  width: 1340px;
+  height: 163.18px;
+  left: 800px;
+  z-index: 3;
+  margin-top: 90px;
+}
+
+.ellipse-little {
+  position: absolute;
+  width: 886px;
+  height: 120.61px;
+  left: 1025px;
+  z-index: 3;
+  margin-top: 110px;
 }
 
 .team {

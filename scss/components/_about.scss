@@ -35,25 +35,16 @@
 
 .about-image{
     position: absolute;
-    margin-left: 1013px;
+    margin-left: 940px;
     top: 977px;
     width: 324px;
     height: 252px;
     z-index: 2;
 }
 
-// .about-image::after{
-//     content: "";
-//     background-image: url("../images/about_after_img.png");
-//     width: 377px;
-//     height: 290px;
-//     left: 1013px;
-//     top: 945px;
-// }
-
 .about-image__after{
     position: absolute;
-    margin-left: 1013px;
+    margin-left: 940px;
         top: 945px;
         width: 377px;
             height: 290px;

@@ -1,4 +1,62 @@
 .feature{
-    margin-bottom: 80px;
+    margin-bottom: 310px;
+    position: relative;
 }
 
+.feature-image {
+    position: absolute;
+    margin-left: 500px;
+    top: 90px;
+}
+
+.feature-list{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Adamina';
+    font-style: normal;
+    font-weight: 400;
+     font-size: 20px;
+    line-height: 1;
+    margin-left: 300px;
+    gap: 140px;
+    
+}
+
+
+.feature-list .feature-item{
+    list-style: url(/images/feature-eclipse.jpg);
+    width: 40%; 
+}
+
+.feature-text{
+    font-family: 'Adamina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    position: absolute;
+    z-index: 4;
+    left: 1320px;
+}
+
+.ellipse-big{
+    position: absolute;
+    width: 1340px;
+    height: 163.18px;
+    left: 800px;
+    z-index: 3;
+    margin-top: 90px;
+}
+
+.ellipse-little{
+position: absolute;
+    width: 886px;
+    height: 120.61px;
+    left: 1025px;
+    z-index: 3;
+    margin-top: 110px;
+}

@@ -8,7 +8,7 @@
 .site-nav__list{
     display: flex;
     justify-content: baseline;
-    margin-left: 520px;
+    margin-left: 490px;
 }
 
 .site-nav__list li{
@@ -46,6 +46,7 @@
     color: #FFFFFF;
     cursor: pointer;
     left: -40px;
+    margin-left: 60px;
 }
 
 .logo::before{
