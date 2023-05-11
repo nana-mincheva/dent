@@ -507,8 +507,8 @@ body {
 
 .about-image {
   position: absolute;
-  margin-left: 940px;
-  top: 977px;
+  left: 57%;
+  top: 43.5%;
   width: 324px;
   height: 252px;
   z-index: 2;
@@ -516,8 +516,8 @@ body {
 
 .about-image__after {
   position: absolute;
-  margin-left: 940px;
-  top: 945px;
+  left: 57%;
+  top: 42%;
   width: 377px;
   height: 290px;
   z-index: 1;
@@ -530,8 +530,8 @@ body {
 
 .feature-image {
   position: absolute;
-  margin-left: 500px;
-  top: 90px;
+  left: 46%;
+  top: 25%;
 }
 
 .feature-list {
