@@ -667,7 +667,7 @@ body {
 
 .services-list__item::before {
   content: "";
-  background-image: url("/images/arrow.svg");
+  background-image: url("./images/arrow.svg");
   width: 20px;
   height: 19px;
   display: flex;
