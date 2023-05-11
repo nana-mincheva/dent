@@ -380,7 +380,7 @@ body {
 
 .logo::before {
   content: "";
-  background-image: url("/images/logo.svg");
+  background-image: url("../images/logo.svg");
   width: 52.21px;
   height: 59px;
   display: flex;
@@ -391,7 +391,7 @@ body {
 }
 
 .hero {
-  background-image: url("/images/unsplash_1AhGNGKuhR0.jpg");
+  background-image: url("../images/unsplash_1AhGNGKuhR0.jpg");
   height: 800px;
   width: 100%;
   background-repeat: no-repeat;
