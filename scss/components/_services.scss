@@ -4,11 +4,8 @@
 
 .services-list {
     display: flex;
-    /* установка flex-контейнера */
     flex-wrap: wrap;
-    /* перенос на новую строку */
     justify-content: space-between;
-    /* распределение по ширине */
 }
 
 .services-list__item {
