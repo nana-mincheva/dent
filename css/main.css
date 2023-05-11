@@ -474,6 +474,54 @@ body {
   margin-bottom: 80px;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "STIX Two Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.8;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.about-text {
+  position: relative;
+  font-family: "Adamina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.about-text__container {
+  width: 690px;
+}
+
+.about-text__end {
+  margin-top: 38px;
+  text-align: center;
+}
+
+.about-image {
+  position: absolute;
+  margin-left: 1013px;
+  top: 977px;
+  width: 324px;
+  height: 252px;
+  z-index: 2;
+}
+
+.about-image__after {
+  position: absolute;
+  margin-left: 1013px;
+  top: 945px;
+  width: 377px;
+  height: 290px;
+  z-index: 1;
+}
+
 .feature {
   margin-bottom: 80px;
 }
