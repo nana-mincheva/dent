@@ -22,6 +22,7 @@
     font-family: 'Adamina';
     font-size: 20px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .services-list__item::before {
@@ -33,4 +34,13 @@
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+.services-list__item:hover{
+background: rgba(226, 225, 204, 0.6);
+border: 1px solid rgba(0, 0, 0, 0.53);
+}
+
+.services-list__item:focus {
+background: #D9D9D9;
 }
