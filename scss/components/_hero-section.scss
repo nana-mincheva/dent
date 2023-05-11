@@ -52,6 +52,7 @@ color: white;
     background-image: linear-gradient( #ffffff, #d7d7d2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .hero-title__secondspan{  
@@ -63,6 +64,7 @@ color: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+    background-clip: text;
 
 }
 
